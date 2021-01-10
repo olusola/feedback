@@ -1,0 +1,31 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.27",
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.1.2",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "aws-amplify": "^3.3.7",
+    "emotion": "^10.0.27",
+    "firebase": "^8.0.2",
+    "framer-motion": "^3.2.0",
+    "nanoid": "^3.1.16",
+    "next": "10.0.1",
+    "next-connect": "^0.9.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "typescript": "^4.0.5"
+  }
+}
