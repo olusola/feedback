@@ -4,7 +4,7 @@ import { Amplify } from 'aws-amplify'
 import { ChakraProvider } from '@chakra-ui/react'
 
 Amplify.configure({
-  ...config,
+  config,
 })
 
 function MyApp({ Component, pageProps }) {
