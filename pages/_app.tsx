@@ -3,7 +3,7 @@ import { Amplify, Auth } from 'aws-amplify'
 import config from '../src/aws-exports'
 import { ChakraProvider } from '@chakra-ui/react'
 
-Amplify.configure({...config, ssr: true, Auth: {...config}})
+Amplify.configure({...config, ssr: true})
 
 function MyApp({ Component, pageProps }) {
   return <ChakraProvider>
