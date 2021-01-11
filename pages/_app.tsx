@@ -5,7 +5,6 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 Amplify.configure({
   ...config,
-  ssr: true
 })
 
 function MyApp({ Component, pageProps }) {
