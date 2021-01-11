@@ -6,6 +6,8 @@ const AuthCodeForm = ({handleConfirmSignUp, handleFormChange, showSignUp}) => {
         <>
             <Center>
                 <Heading as="h5" size="md" my={5}>Confirmation Code</Heading>
+                <Heading as="h5" size="md" my={3}>We have sent a verification code to your email.</Heading>
+                <Heading as="h5" size="md" my={3}>Please enter code from your email to the field below!</Heading>
             </Center>
             <Stack>
                 <FormControl id="authCode">
@@ -16,7 +18,6 @@ const AuthCodeForm = ({handleConfirmSignUp, handleFormChange, showSignUp}) => {
                         onChange={handleFormChange} 
                         placeholder="Enter Code"
                     />
-                    {/* <FormHelperText>We'll never share your email.</FormHelperText> */}
                 </FormControl>
                 <Button onClick={handleConfirmSignUp} colorScheme="teal" size="md" type="submit">
                     Submit Code

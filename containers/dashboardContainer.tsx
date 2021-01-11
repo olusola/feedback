@@ -60,10 +60,16 @@ const DashboardContainer = ({userId}) => {
             */}
             <Flex bg="white" p={3} borderRadius={8}>
                 <Box p="2">
-                <Heading size="sm" >getFeedback</Heading>
+                <Heading size="sm" >Feedback</Heading>
                 </Box>
                 <Spacer/>
                 <HStack>
+                    <a href="/">
+                        <Button size="sm" colorScheme="teal" variant="link">
+                            How It Works
+                        </Button>
+                    </a>
+                    <Spacer/>
                     <Button onClick={signOut} size="sm" colorScheme="teal" type="button">
                         Log Out
                     </Button>

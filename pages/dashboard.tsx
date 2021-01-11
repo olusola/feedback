@@ -3,13 +3,7 @@ import { withSSRContext } from 'aws-amplify'
 import { useRouter } from 'next/router'
 import DashboardContainer from '../containers/dashboardContainer'
 
-const Profile = ({username}) => {
-    const router = useRouter()
-
-    useEffect(() => {
-        console.log(username)
-    }, [])
-    
+const Profile = ({username}) => {    
     return (
         <>
             <DashboardContainer userId={username}/>
@@ -21,7 +15,6 @@ export async function getServerSideProps({ req, res }) {
     const { Auth } = withSSRContext({ req })
 
     try {
-        const fb_data = []
         const user = await Auth.currentAuthenticatedUser()
         
         return {
