@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Stack, FormControl, FormLabel, Input, InputGroup, InputRightElement, Button, Box, Flex, Spacer, Divider, Text, Center } from '@chakra-ui/react'
+import { Heading, Stack, FormControl, Input, InputGroup, InputRightElement, Button, Box, Flex, Spacer, Divider, Text, Center } from '@chakra-ui/react'
 import { LockIcon } from '@chakra-ui/icons'
 const SignInForm = ({handleSignIn, handleFormChange, showSignUp}) => {
     const [show, setShow] = React.useState(false)

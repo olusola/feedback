@@ -1,5 +1,5 @@
 import { ArrowForwardIcon } from '@chakra-ui/icons'
-import { FormControl, FormLabel, Input, FormHelperText, Stack, Button, Heading, InputRightElement, InputGroup, Box, Divider, Flex, Spacer, Center } from '@chakra-ui/react'
+import { FormControl, Input, Stack, Button, Heading, InputRightElement, InputGroup, Box, Divider, Flex, Spacer, Center } from '@chakra-ui/react'
 import React from 'react'
 
 const SignUpForm = ({handleChange, handleFormChange, showSignIn}) => {

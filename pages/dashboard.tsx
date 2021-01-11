@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { withSSRContext } from 'aws-amplify'
-import { useRouter } from 'next/router'
 import DashboardContainer from '../containers/dashboardContainer'
 
 const Profile = ({username}) => {    
